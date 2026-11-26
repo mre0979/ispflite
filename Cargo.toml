@@ -1,0 +1,23 @@
+[package]
+name = "ispflite"
+version = "0.2.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+publish = false
+description = "Rust port of the SPFLite editor."
+default-run = "ispflite"
+
+[[bin]]
+name = "ispflite"
+path = "src/bin/ispflite.rs"
+
+[[bin]]
+name = "ispflite-cli"
+path = "src/bin/ispflite-cli.rs"
+
+[dependencies]
+eframe = "0.37.0"
+rfd = "0.18.0"
+
+[target.'cfg(windows)'.dependencies]
+clipboard-win = "5.4.3"
