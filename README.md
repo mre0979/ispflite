@@ -12,3 +12,6 @@ License: GPL-3.0-or-later.
 - Labels, bookmarks, LOCATE, RESET, SORT, RENUM for standard and COBOL sequence numbers, undo, and redo.
 - Several open files. Tabs can be reordered, closed, saved, or moved into a new window, and recent files are remembered.
 - Open and save UTF-8 and Windows ANSI (code page 1252) files.
+
+**Screenshot**
+<img width="1675" height="1269" alt="image" src="https://github.com/user-attachments/assets/2cd9cb52-97ea-438e-ad9e-3f792b57c367" />
